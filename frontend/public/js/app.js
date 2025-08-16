@@ -164,7 +164,7 @@ class LanguageLearningApp {
     this.showLoading();
     
     try {
-      const response = await fetch('/api/process-speech', {
+      const response = await fetch('/api/process-speech-test', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
