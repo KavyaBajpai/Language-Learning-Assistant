@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Assistant</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Language Learning Assistant</h1>
+            
+            <div class="controls">
+                <select id="languageSelect">
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+                
+                <button id="micBtn" class="btn-mic">
+                    🎤
+                </button>
+            </div>
+            
+            <div id="status" class="status">
+                Select a language and click the microphone to start speaking
+            </div>
+            
+            <div id="results" class="results">
+                <!-- Results will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
